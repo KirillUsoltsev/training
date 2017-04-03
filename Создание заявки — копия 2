@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://evrone.invendor.qa.c66.me/" />
+<title>Создание заявки</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Создание заявки</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>150</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/search?utf8=%E2%9C%93&amp;search_form%5Bdevice_type_id%5D=&amp;search_form%5Bvendor_id%5D=&amp;search_form%5Bdevice_model_id%5D=&amp;search_form%5Bsymptom_id%5D=&amp;commit=%D0%93%D0%B4%D0%B5+%D0%BF%D0%BE%D1%87%D0%B8%D0%BD%D0%B8%D1%82%D1%8C%3F</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[3]/div[2]/div[4]/a[2]</td>
+	<td>Заявка на ремонт</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Заявка на ремонт')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/span/span/span/span[2]/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//li[2]</td>
+	<td>Apple</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/span/span/span/span[2]/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[4]/span/span/span/span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//li[2]</td>
+	<td>iPhone3G</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[4]/span/span/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/span/span/span/span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//li[2]</td>
+	<td>Не работат экран</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/a</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
